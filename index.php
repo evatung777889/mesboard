@@ -75,7 +75,7 @@
                     } //else結束
                     echo "</td></tr></table>";
                 }
-                mysqli_close($link)
+                mysqli_close($link) 
 
                 ?>
             </td>

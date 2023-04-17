@@ -83,7 +83,7 @@
         //mysqli_query($與資料庫的連接,"select * from 資料庫名稱")：從某資料庫中讀取所有的（*）資料表
         mysqli_query($link, $insert);
         //mysqli_close($與資料庫的連接)：斷開與資料庫的連線
-        mysqli_close($link);
+        mysqli_close($link); 
 
         // echo "<script language=javascript>alert('留言成功!單擊確定檢視留言.');location.href='index.php';</script>";
 
